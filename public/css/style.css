@@ -119,7 +119,7 @@ body{
 /* weather */
 
 .temp_form{
-    width: 60rem;
+    width: 50rem;
     position: relative;
     margin: 3rem auto 4rem;
 }
@@ -251,5 +251,25 @@ footer p{
 
     #img{
         margin-left: 0;
+    }
+}
+
+@media (max-width: 600px){
+    .temp_form {
+        width: 24rem;
+    }
+
+    .input {
+        width: 114%;
+        font-size: 1.3rem;
+    }
+    #submitBtn {
+        
+        right: -28px;
+        font-size: 1.3rem;
+    }
+    .tempInfo {
+        width: 28rem;
+        
     }
 }
